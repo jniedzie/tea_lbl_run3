@@ -1,0 +1,12 @@
+build/*
+bin/*
+
+.__afs*
+.vscode
+*.root
+plots/*
+combine/*
+datacards/*
+utils/__pycache__/*
+
+plotting_macros/figures/*
