@@ -135,23 +135,4 @@ branchesNames = {
   # "CastorTower_hadE": ("CastorTower_hadE", "vector<float>"),
   # "CastorTower_emE": ("CastorTower_emE", "vector<float>"),
   # "CastorTower_p4": ("CastorTower_p4", "vector<float>"),
-  # //"C: (//"C, "vector<float>"),
- 
-  # pixelTree->SetBranchAddress("nPix"            , &nPhysObjects.at(EPhysObjType::kPixelTrack));
-  # pixelTree->SetBranchAddress("pixPt"           , &pixelTrackPt);
-  # pixelTree->SetBranchAddress("pixP"            , &pixelTrackP);
-  # pixelTree->SetBranchAddress("pixEta"          , &pixelTrackEta);
-  # pixelTree->SetBranchAddress("pixPhi"          , &pixelTrackPhi);
-  # pixelTree->SetBranchAddress("pixcharge"       , &pixelTrackCharge);
-  # pixelTree->SetBranchAddress("pixValidHits"    , &pixelTrackValidHits);
-  # pixelTree->SetBranchAddress("pixMissHits"     , &pixelTrackMissingHits);
-  # pixelTree->SetBranchAddress("pixPurity"       , &pixelTrackPurity);
-  # pixelTree->SetBranchAddress("pixnormchi2"     , &pixelTrackChi2);
-  # pixelTree->SetBranchAddress("pixdxy"          , &pixelTrackDxy);
-  # pixelTree->SetBranchAddress("pixdz"           , &pixelTrackDz);
-  # pixelTree->SetBranchAddress("pixdxyError"     , &pixelTrackDxyErr);
-  # pixelTree->SetBranchAddress("pixdzError"      , &pixelTrackDzErr);
-  # pixelTree->SetBranchAddress("pixvx"           , &pixelTrackVertexX);
-  # pixelTree->SetBranchAddress("pixvy"           , &pixelTrackVertexY);
-  # pixelTree->SetBranchAddress("pixvz"           , &pixelTrackVertexZ);  
 }

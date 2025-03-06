@@ -18,18 +18,9 @@ sample = "emptyBeams"
 # sample = "qed_sc_noPhotos"
 
 skim = "initial"
-# skim = "afterTrigger"
-# skim = "skimmed_lblSelections_final"
-# skim = "skimmed_lblSelections_final_andZDC3n"
 # skim = "skimmed_lblSelections_final_photonMatchingdeltaPhi0p15"
-# skim = "skimmed_lblSelections_final_twoPhotons"
-# skim = "skimmed_qedSelections"
-# skim = "skimmed_tracksPhotonsSelections"
 
-# inputFilePath = "./renamed_test.root"
-# inputFilePath = "./skimmed_test.root"
 inputFilePath = f"{base_path}/ntuples/{sample}/{skim}/ntuple_0.root"
-# inputFilePath = f"{base_path}/ntuples/{sample}/merged_{skim}.root"
 
 histogramsOutputFilePath = f"../{skim}_{sample}_histograms.root"
 
@@ -39,22 +30,7 @@ defaultHistParams = (
     ("goodPhoton", "eta", 12,    -2.2,    2.2,     ""),
     ("goodPhoton", "phi", 12, -3.14, 3.14, ""),
     ("goodPhoton", "seedTime", 100, -5, 5, ""),
-    # ("goodPhoton", "ecalClusterIsoR2", 100, 0, 1, ""),
-    # ("goodPhoton", "ecalClusterIsoR3", 100, 0, 1, ""),
-    # ("goodPhoton", "ecalClusterIsoR4", 100, 0, 1, ""),
-    # ("goodPhoton", "ecalClusterIsoR5", 100, 0, 1, ""),
-    # ("goodPhoton", "hcalRechitIsoR1", 100, 0, 1, ""),
-    # ("goodPhoton", "hcalRechitIsoR2", 100, 0, 1, ""),
-    # ("goodPhoton", "hcalRechitIsoR3", 100, 0, 1, ""),
-    # ("goodPhoton", "hcalRechitIsoR4", 100, 0, 1, ""),
-    # ("goodPhoton", "hcalRechitIsoR5", 100, 0, 1, ""),
-    # ("goodPhoton", "trackIsoR1PtCut20", 100, 0, 1, ""),
-    # ("goodPhoton", "trackIsoR2PtCut20", 100, 0, 1, ""),
-    # ("goodPhoton", "trackIsoR3PtCut20", 100, 0, 1, ""),
-    # ("goodPhoton", "trackIsoR4PtCut20", 100, 0, 1, ""),
-    # ("goodPhoton", "trackIsoR5PtCut20", 100, 0, 1, ""),
-
-
+    
     ("goodElectron", "pt", 200,    0,       100,     ""),
     ("goodElectron", "eta", 20,    -2.2,    2.2,     ""),
     ("goodElectron", "phi", 20,    -3.14,    3.14,     ""),
@@ -289,10 +265,6 @@ irregularHistParams = (
     ("diphoton", "acoplanarity3", log_bins_20, ""),
     ("diphoton", "acoplanarity4", log_bins_30, ""),
     ("diphoton", "acoplanarity5", log_bins_40, ""),
-
-    # ("diphoton", "acoplanarity4",
-    #  [0.0, 0.002, 0.004, 0.006, 0.008, 0.01, 0.012, 0.014, 0.016, 0.018, 0.02, 0.035, 0.050, 0.065, 0.1],
-    #  ""),
 )
 
 histParams2D = (

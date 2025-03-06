@@ -11,14 +11,6 @@ from lbl_paths import base_path, processes, qed_superchic, skim, qed_starlight, 
 output_path = f"../plots/{skim.replace('skimmed_', '')}/"
 # output_path = f"../plots/{skim.replace('skimmed_', '')}_withALPs/"
 
-# output_path = f"../plots/{skim.replace('skimmed_', '')}_1gamma/"
-# output_path = f"../plots/{skim.replace('skimmed_', '')}_2gamma/"
-# output_path = f"../plots/{skim.replace('skimmed_', '')}_MG5/"
-# output_path = f"../plots/{skim.replace('skimmed_', '')}_MG5_noPtCut/"
-# output_path = f"../plots/{skim.replace('skimmed_', '')}_comparison/"
-# output_path = f"../plots/{skim.replace('skimmed_', '')}_SCvsSL/"
-
-
 do_photons = True
 do_alps = False
 
@@ -213,11 +205,6 @@ histograms = (
     Histogram("diphotonSR_mass", "", False, True, NormalizationType.to_lumi, 1,   0, 25, 2e-1, 1e2, "m^{#gamma#gamma} (GeV)", "Events / 5 GeV", "", lbl_error),
     
     Histogram("eventSR3_cosThetaStar", "", False, False, NormalizationType.to_lumi, 1,   0, 1, 0, 25, "|cos #theta*|", "Events / 0.33", "", lbl_error),
-
-
-    # Histogram("goodPhoton_eta", "", False, True, NormalizationType.to_lumi, 1,   -2.2, 2.2, 1e-1, 1e5, "#eta^{#gamma}", y_label, "", lbl_error),
-    # Histogram("goodPhoton_phi", "", False, True, NormalizationType.to_lumi, 1,   -3.14, 3.14, 1e-1, 1e6, "#phi^{#gamma}", y_label, "", lbl_error),
-    # Histogram("goodPhoton_et", "", False, True, NormalizationType.to_lumi, 1,   0, 10, 1e-1, 1e4, "E_{T}^{#gamma} (GeV)", y_label, "", lbl_error),
     Histogram("goodPhoton_seedTime", "", False, True, NormalizationType.to_one, 1,   -5, 5, -1, -1, "Photon seed time", y_label, "", lbl_error),
 
     Histogram("goodPhoton_et", "", False, False, NormalizationType.to_lumi, 1,   0, 10, 0, 15, "E_{T}^{#gamma} (GeV)", y_label, "", lbl_error),

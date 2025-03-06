@@ -34,17 +34,6 @@ applyEtDelta = False
 # applyZDC = True
 # applyEtDelta = False
 
-# for 2 tracks + 2 photons analysis:
-# applyTwoTracksTwoPhotons = True
-# applyTwoPhotons = False
-# applyTwoElectrons = False
-# applyDiphotonPt = True
-# applyChargedExclusivity = False
-# applyNeutralExclusivity = False
-# applyZDC = True
-# applyEtDelta = False
-
-
 sample = "collisionData"
 # sample = "lbl"
 # sample = "cep"
@@ -56,10 +45,6 @@ sample = "collisionData"
 # skim = "initial"
 
 inputFilePath = f"{base_path}/ntuples/{sample}/initial/ntuple_0.root"
-# inputFilePath = f"{base_path}/ntuples/{sample}/merged_initial.root"
-# inputFilePath = f"{base_path}/ntuples/{sample}/skimmed_allSelections/ntuple_0.root"
-# inputFilePath = "./renamed_test.root"
-# treeOutputFilePath = inputFilePath.replace("initial", skim)
 treeOutputFilePath = "../skimmed_test.root"
 
 # weightsBranchName = "genWeight"
