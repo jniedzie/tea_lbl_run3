@@ -8,6 +8,19 @@ The analysis framework is based on `tea` - please have a look at the general set
 
 If you're going to run on lxplus, just remember to use lxplus9, install the `correctionlib`, and use `python3`.
 
+You also need to make sure that your connection with github and gitlab works on lxplus. Run these commands to verify that:
+
+```
+ssh -T git@github.com
+# -> Hi username! You've successfully authenticated, but GitHub does not provide shell access.
+```
+```
+ssh -T git@gitlab.cern.ch -p 7999
+# -> Welcome to GitLab, @username!
+```
+
+If you get output that indicates connection issues, you should first setup your ssh keys (which is described at length on github and gitlab pages).
+
 ## Installation
 
 To clone the repo, together with all submodules, run:
