@@ -4,7 +4,7 @@
 
 The analysis framework is based on `tea` - please have a look at the general setup instructions here: [cern.ch/tea](https://jniedzie.github.io/tea/docs/build/).
 
-**You don't need to install `tea` though, it will come automatically when you install `tea_lbl`!!**
+**You don't need to install `tea` though, it will come automatically when you install `tea_lbl_run3`!!**
 
 If you're going to run on lxplus, just remember to use lxplus9, install the `correctionlib`, and use `python3`.
 
@@ -16,7 +16,7 @@ To clone the repo, together with all submodules, run:
 git clone --recurse-submodules git@github.com:jniedzie/tea_lbl_run3.git
 ```
 
-Then, simply run `. tea/build.sh` from the `tea_lbl` directory.
+Then, simply run `. tea/build.sh` from the `tea_lbl_run3` directory.
 
 ## Example samples
 
