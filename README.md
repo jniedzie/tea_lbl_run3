@@ -16,7 +16,12 @@ To clone the repo, together with all submodules, run:
 git clone --recurse-submodules git@github.com:jniedzie/tea_lbl_run3.git
 ```
 
-Then, simply run `. tea/build.sh` from the `tea_lbl_run3` directory.
+Then, run: 
+```
+cd tea_lbl_run3
+. tea/update.sh
+. tea/build.sh
+```
 
 ## Example samples
 
