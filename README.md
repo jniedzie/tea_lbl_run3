@@ -13,7 +13,7 @@ If you're going to run on lxplus, just remember to use lxplus9, install the `cor
 To clone the repo, together with all submodules, run:
 
 ```bash
-git clone --recurse-submodules git@github.com:jniedzie/tea_lbl.git
+git clone --recurse-submodules git@github.com:jniedzie/tea_lbl_run3.git
 ```
 
 Then, simply run `. tea/build.sh` from the `tea_lbl` directory.
