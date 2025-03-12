@@ -1,6 +1,0 @@
-samples/*/*_hists.root
-samples/*/*/*
-samples/histograms/*
-
-bin/*
-build/*
